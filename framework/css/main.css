@@ -2,8 +2,6 @@
   outline: 1px solid red !important;
 }
 
-
-
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -11,8 +9,16 @@
   box-sizing: border-box;
 }
 
+.grid {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
 .row {
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .col-1 {
