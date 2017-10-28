@@ -8,6 +8,7 @@
   -ms-box-sizing: border-box;
   box-sizing: border-box;
   font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
   color: #747704;
 }
 
@@ -76,11 +77,12 @@
 
 #header-title {
   border-bottom: 4px solid #bcbbbb;
-  margin-top: 20px;
+  margin-top: 15px;
+  padding-bottom: 10px;
 }
 
 #header-title h1 {
-  margin: 0px;
+  margin: 10px 0px 0px 0px;
   font-family: 'Work Sans', sans-serif;
   font-weight: 100;
   font-size: 60px;
@@ -90,7 +92,6 @@
 
 #header-title h3 {
   margin: 0px;
-  padding-bottom: 20px;
   font-family: 'Work Sans', sans-serif;
   font-weight: 300;
   font-size: 22px;
@@ -98,7 +99,19 @@
   text-transform: uppercase;
 }
 
-#header-sub h2 {
+.header-icon {
+  margin-left: 10px;
+}
+
+.header-text {
+  text-align: right;
+}
+
+#splash {
+  margin: 30px 0px;
+}
+
+#featured-sub h2 {
   margin: 0px;
   padding: 0px 0px 10px 10px;
   font-family: 'Work Sans', sans-serif;
@@ -107,14 +120,32 @@
   color: #aaa;
 }
 
-#splash {
-  margin: 30px 0px;
+#featured-image-center {
+  text-align: center;
 }
 
-#featured h3 {
+#featured-image-right {
+  text-align: right;
+}
+
+#featured-links h3 {
   margin: 0px;
   font-family: 'Work Sans', sans-serif;
-  font-weight: 300;
-  font-size: 32px;
+  font-weight: 400;
+  font-size: 36px;
   text-transform: uppercase;
+}
+
+div#featured-links {
+  text-align: center;
+}
+
+#featured-links a {
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+#featured-links a:hover, a:active {
+  color: #f8981c;
 }
