@@ -1,6 +1,8 @@
 <!DOCTYPE HTML>
 <html>
   <head>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,300,400" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -34,21 +36,72 @@
     </div>
     <div class="row text-center" id="featured-links">
       <div class="col-md-4">
-        <img class="img-responsive" src="images/appify.jpg">
+        <img class="img-responsive" data-toggle="modal" data-target="#appify" src="images/appify.jpg">
         <h3 class="text-uppercase">Appify</h3>
         <p><a href="https://github.com/udacity/Appify/">https://github.com/udacity/Appify/</a></p>
       </div>
       <div class="col-md-4">
-        <img class="img-responsive" src="images/sunflower.jpg">
+        <img class="img-responsive" data-toggle="modal" data-target="#sunflower" src="images/sunflower.jpg">
         <h3 class="text-uppercase">Sunflower</h3>
         <p><a href="https://github.com/udacity/Sunflower/">https://github.com/udacity/Sunflower/</a></p>
       </div>
       <div class="col-md-4">
-        <img class="img-responsive" src="images/bokeh.jpg">
+        <img class="img-responsive" data-toggle="modal" data-target="#bokeh" src="images/bokeh.jpg">
         <h3 class="text-uppercase">Bokeh</h3>
         <p><a href="https://github.com/udacity/Bokeh/">https://github.com/udacity/Bokeh/</a></p>
       </div>
     </div>
   </div>
+  <!-- Modal -->
+  <div class="modal fade" id="appify" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Appify Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/555.jpeg">
+                    This was my first project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  <!-- Modal -->
+  <div class="modal fade" id="sunflower" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Sunflower Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/555.jpeg">
+                    This was my second project in this class. I learned a lot about images and responive web design.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  <!-- Modal -->
+  <div class="modal fade" id="bokeh" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Bokeh Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/555.jpeg">
+                    This was my third project in this class. I learned a lot about Bootstrap JavaScript plug-ins.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
   </body>
 </html>
